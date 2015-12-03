@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `file` (
+   `username` VARCHAR(20) NOT NULL,
+   `path`     VARCHAR(100) NOT NULL,
+   `name`     VARCHAR(100) NOT NULL,
+   `format`   VARCHAR(40)  NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

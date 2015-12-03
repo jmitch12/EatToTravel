@@ -1,0 +1,78 @@
+body{
+	width: 100%;
+	margin: 0;
+}
+
+#head{
+	background-color: #392f31;
+	position: absolute;
+	left: 33.5vw;
+	top: 20vh;
+}
+
+#head img{
+	width:400px;
+	padding: 1.7em 2em .5em 2em;
+}
+
+form {
+	position: relative;
+	top: 36.5vh;
+	left: 33.5vw;
+	width: 400px;
+	height: 270px;
+	/*margin: 25px auto;*/
+	padding: 24px 0px 24px 24px;
+	color: #392f31;
+	background: #88b067;
+	opacity: .95;
+	margin: 0;
+}
+
+input, textarea {
+  	font-family: Gotham-Book, sans-serif;
+}
+
+input {
+  	padding: 1.25em .625em;
+  	border: 1px solid transparent;
+  	width: 93%;
+
+}
+
+.login .button{
+	background-color: #392f31;
+	font-family: Gotham-Book, sans-serif;
+	color: white;
+}
+
+.register{
+	position: absolute;
+	top: 71vh;
+	left: 39.5vw;
+	display: inline;
+	width: 30vw;
+}
+.register h6{
+	position: relative;
+	font-family: Gotham-Book, sans-serif;
+	font-size: 14px;
+	color: #392f31;
+	padding: none;
+	margin: 0;
+}
+
+.register a{
+	position: relative;
+	left: 14vw;
+	top:-3vh;
+	font-family: Gotham-Book, sans-serif;
+	color: white;
+	padding: none;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.register a:hover{
+	color: #392f31;
+}

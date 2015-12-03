@@ -1,0 +1,142 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-color: #584f50;
+}
+
+#logo{
+	position: absolute;
+	top: 2vh;
+	left: 3vw;
+	width: 20vw;
+}
+
+#logo img{
+	width: 20vw;
+}
+
+#nav{
+	width: 100vw;
+	height: 12vh;
+	margin: 0;
+	/*padding-right: 10vw;*/
+}
+
+#nav a, button{
+	position: relative;
+	top:3.5vh;
+	color: white;
+	font-family: Gotham-Book, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-right: 3vw;
+	float: right;
+}
+
+button{
+	position: relative;
+	top:-.5vh;
+	background-color: #88b067;
+	padding: .5vh 1vw .5vh 1vw;
+	border: none;
+	text-align: center;
+}
+
+#nav a:hover{
+	color: #88b067;
+}
+#slider{
+	position: absolute;
+	top: 0;
+	z-index: -99;
+	overflow: hidden;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: 15s slidy infinite; 
+}
+
+#slider img{
+	width: 20%;
+	float:left;
+	height: 100vh;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+10% { left: 0%; }
+15% { left: -100%; }
+35% { left: -100%; }
+40% { left: -200%; }
+60% { left: -200%; }
+65% { left: -300%; }
+85% { left: -300%; }
+90% { left: -400%; }
+100% {left: -400%; }
+}
+
+#subnav{
+	position: relative;
+	top:95vh;
+	background-color:rgba(255,255,255,0.5);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#subnav ul{
+	width:100vw;
+	list-style: none;
+	padding: 0;
+	/*width: calc(80vw + 30px); /*do math*/*/
+	margin-left:28px;
+	margin-right: 28px;
+
+}
+#subnav li{
+	width:24vw;
+	height:24vw;
+	/*margin:10px 6px 0 0;*/
+	display:inline-block;
+	overflow:hidden;
+}
+#subnav img{
+	height: 24vw;
+}
+#subnav img:hover{
+	opacity: 0.5;
+}
+#subnav li:nth-child(1), #subnav li:nth-child(5) {
+	padding-left: 18.5px;
+}
+
+/*#footer{
+	position: relative;
+	background-color: #392f31;
+	width: 100vw;
+	height:10vh;
+}
+
+#footer nav{
+	padding-left: 30px;
+	padding-top: 30px;
+}
+#footer nav img{
+	float: left;
+	padding-right: 15px;
+}
+#footer nav img:hover{
+	opacity: 0.6;
+}
+#footer nav a:nth-child(1){
+	padding-top: 5px;
+}
+#footer nav a:nth-child(4){
+	margin-top: -10px;
+}
+#footer nav a:nth-child(5){
+	margin-top: -18px;
+}*/
